@@ -1,23 +1,26 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png" /> -->
-<word-cloud/>
+<!-- <word-cloud/> -->
     <!-- <print text="pass values  by props"/> -->
     <!-- <expor-excel/> -->
+    <curd/>
   </div>
 </template>
 
 <script>
+import Curd from './components/Curd.vue';
 
 // import Print from '@/components/Print.vue'
 // import ExporExcel from './components/ExporExcel.vue';
-import WordCloud from './components/WordCloud.vue';
+// import WordCloud from './components/WordCloud.vue';
 export default {
   name: "app",
   components: {
+    Curd
     // Print,
     // ExporExcel,
-    WordCloud
+    // WordCloud
   },
   data(){
       return {
